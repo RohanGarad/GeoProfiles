@@ -69,7 +69,7 @@ const AdminPanel = () => {
   };
 
   return ( 
-    <div className="max-w-5xl mx-auto my-8 p-6 bg-gray-100 shadow-md rounded-lg">
+    <div className="max-w-6xl mx-auto my-8 p-6 bg-gray-100 shadow-md rounded-lg">
       <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6 text-gray-700">
         Admin Panel
       </h2>
@@ -103,7 +103,7 @@ const AdminPanel = () => {
           <h3 className="text-lg sm:text-xl font-semibold mb-4 text-gray-700">
             Existing Profiles
           </h3>
-          <div className="space-y-4 max-h-[400px] overflow-y-auto">
+          <div className="space-y-4 max-h-[600px] overflow-y-auto">
             {profiles.length === 0 ? (
               <p className="text-gray-500 text-center">No profiles available</p>
             ) : (
